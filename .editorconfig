@@ -1,0 +1,24 @@
+root = true
+
+# Все файлы по умолчанию
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Markdown: не удаляем пробелы в конце строк (нужны для принудительного переноса)
+[*.md]
+trim_trailing_whitespace = false
+
+# YAML: обычно используется отступ 2 пробела
+[*.yml]
+indent_size = 2
+
+[*.json]
+indent_size = 2
+
+[Makefile]
+indent_style = tab
