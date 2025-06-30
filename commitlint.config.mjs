@@ -5,17 +5,17 @@ export default {
       2,
       'always',
       [
-        'feat',      // Новая фича
-        'fix',       // Багфикс
-        'docs',      // Документация
-        'style',     // Форматирование (пробелы, точки с запятой и т.п.)
-        'refactor',  // Рефакторинг без изменения поведения
-        'test',      // Тесты
-        'chore',     // Вспомогательные задачи (билды, зависимости и т.п.)
-        'ci',        // CI-процессы
-        'perf',      // Оптимизация производительности
-        'revert',    // Откат коммита
-        'wip',       // Работа в процессе (не рекомендуется, но допустимо)
+        'feat', // new feature
+        'fix', // bugfix
+        'docs', // documentation
+        'style', // formatting
+        'refactor', // refactoring
+        'test', // tests
+        'chore', // helpers
+        'ci', // CI-processes
+        'perf', // performance optimization
+        'revert', // commit revert
+        'wip', // work in process
       ],
     ],
   },
