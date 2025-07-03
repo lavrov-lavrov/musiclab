@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "typecheck": "tsc",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -42,6 +43,6 @@
       "eslint --fix",
       "prettier --write"
     ],
-    "*.{css,scss,md,json}": "prettier --write"
+    "*.{css,md,json}": "prettier --write"
   }
 }
